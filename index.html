@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список продуктов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        
+        <h1>Результаты</h1>
+    
+        <form id="product-form">
+            <!-- <input type="text" id="product-name" placeholder="Название продукта" required> -->
+            <input type="number" id="calories" placeholder="Количество" required>
+            <button type="submit">Добавить </button>
+        </form>
+        
+        
+        <ul id="product-list"></ul>
+    
+        <p id="total-calories">Средний балл: <span id="total-calories-value">0</span></p>
+    
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
